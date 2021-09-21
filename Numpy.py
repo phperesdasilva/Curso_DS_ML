@@ -56,7 +56,7 @@ arr = np.random.rand(5,5)
 #passar de 5x5 para 1x25
 arr.reshape(25) #==> não foi mudado na memória, necessida reassociação 
 
-arr = arr.shpae(25) #==> reassociação
+arr = arr.reshape(25) #==> reassociação
 
 #função max detecta o maior valor no array
 arr.max()
@@ -105,22 +105,22 @@ arr[bool] #==> retorna um array de elementos que satisfazem a condicional
 arr = np.arange(0,16)
 
 #soma índice por índice, portanto devem ser do mesmo tamanho
-arr = arr + arr
+arr = arr + 2
 
 #subtração
-arr = arr - arr
+arr = arr - 2
 
 #multiplicação
-arr = arr*arr
+arr = arr*2
 
 #divisão
-arr = arr/arr #==> quando encontra um valor NaN, uma mensagem de alerta é disparada
+arr = arr/2 #==> quando encontra um valor NaN, uma mensagem de alerta é disparada
 
 #exponenciação
 arr = arr**3
 
 #raíz
-arr = np.sqrt()
+arr = np.sqrt(arr)
 
 #exponencial
 arr = np.exp(arr)
