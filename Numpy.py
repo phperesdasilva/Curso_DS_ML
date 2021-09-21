@@ -99,3 +99,45 @@ arr > 50 #==> retorna um array de verdadeiros ou falsos
 bool = arr > 50
 
 arr[bool] #==> retorna um array de elementos que satisfazem a condicional
+
+#operações com arrays
+
+arr = np.arange(0,16)
+
+#soma índice por índice, portanto devem ser do mesmo tamanho
+arr = arr + arr
+
+#subtração
+arr = arr - arr
+
+#multiplicação
+arr = arr*arr
+
+#divisão
+arr = arr/arr #==> quando encontra um valor NaN, uma mensagem de alerta é disparada
+
+#exponenciação
+arr = arr**3
+
+#raíz
+arr = np.sqrt()
+
+#exponencial
+arr = np.exp(arr)
+
+#média do array
+arr = np.mean(arr)
+
+#desvpad
+arr = np.std(arr)
+
+#sen
+arr = np.sin(arr)
+
+#cos
+arr = np.cos(arr)
+
+#arr.max() == np.max(arr)
+
+#exercícios
+
