@@ -68,7 +68,7 @@ arr.argmax()
 #indice do menor numero no array
 arr.min()
 
-#indexação e fatiamento de arrays
+#INDEXAÇÃO E FATIAMENTO DE ARRAYS
 
 arr = np.arange(0,30,3)
 
@@ -138,6 +138,16 @@ arr = np.sin(arr)
 arr = np.cos(arr)
 
 #arr.max() == np.max(arr)
+
+#somar todos os elementos da matriz
+mat.sum()
+
+#desv pad de todos os elementos da matriz
+np.std(mat)
+
+#soma de todas as colunas
+mat.sum(axis) #==> axis = 0 ----soma colunas
+              #    axis = 1 ----soma linhas
 
 #exercícios
 
