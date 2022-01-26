@@ -4,4 +4,4 @@ mat = np.arange(1,26).reshape(5,5)
 
 res = mat.sum(1)
 
-print(res)
+print(('GOOG GOOG MSFT MSFT FB FB').split())
